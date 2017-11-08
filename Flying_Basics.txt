@@ -1,0 +1,36 @@
+Basic Commands!
+How to:
+
+------------------------------------------------------
+:::Store in a Variable: Numerics, Strings and Lists:::
+
+Spanish_Inquisition="Unexpected"
+
+my_parrot=["deceased","passed away", "mmeting the creator", "With Cleese"]
+
+Pounds_In_Foot= 12 + 1 / (13 * 5)   //-- Imperial system?
+
+
+--------------------------
+:::Print the result/List::
+
+print(my_parrot)
+print(Spanish_Inquisition)
+
+
+------------------
+:::List operands::
+my_parrot(0)      // "deceased", starts at 0
+
+my_parrot.append("Prety dead")      //Adds the word to the list
+
+
+---------------------------------------
+:::Defining procedures and functions:::
+
+def convert_to_kilometers(miles):
+  km = miles * 1.60934
+  return km
+
+
+
