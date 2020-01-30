@@ -13,12 +13,30 @@ def view_records():
   for row in file:
     print(row)
   file.close()
+	
+def delete_record():
+	file = open("Salaries.csv","r")
+	x = 0
+	tmplist = []
+	for row in file:
+		tmplist.append(row)
+	file.close()
+	for row in tmplist:
+		print(x,row)
+		x = x+1
+	rowtodelete = int(input("Selecte row for deletion: "))
+	del tmplist[rowtodelete]
+	file = open("Salaries.csv","w")
+	for row in tmplit:
+		file.write(row)
+	file.close
   
  keeplooping = True
  while keeplooping == True:
   print("1- Add record")
   print("2- View all records")
-  print("3- Quit.")
+	print("3- Delete a record")
+  print("4- Quit.")
   print()
   selection = input("Enter option: ")
   if selection == "1":
@@ -26,7 +44,9 @@ def view_records():
   elif selection == "2":
 		view_records()
 	elif selection == "3"
+		delete_record()
+	elif selection == "4"
 		keeplooping = False
 	else:
-		print("Not an option. Press keys [1],[2] or [3], and [Enter]")
+		print("Not an option. Press keys [1],[2],[3] or [4], and [Enter]")
 		
