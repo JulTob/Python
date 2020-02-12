@@ -7,7 +7,6 @@ Practice for coding games.
 
 # Imports #
 from random import choice
-from IPython.display import clear_output
 #---------#
 
 # Game Preparation #
