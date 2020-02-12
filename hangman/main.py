@@ -46,6 +46,7 @@ while not end:
                 guessed[c] = l
     else:
         lifes -= 1
+        print(f"No! You have just {lifes} lifes now")
     if lifes <= 0:
         end = True
         print(game_over)
