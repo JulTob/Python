@@ -1,0 +1,13 @@
+project:
+  type: book
+
+book:
+  title: "Life of Python"
+  author: "Julio Toboso"
+  chapters:
+    - index.qmd
+
+format:
+  html:
+    theme: cosmo
+    toc: true
