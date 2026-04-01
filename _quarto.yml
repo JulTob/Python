@@ -6,8 +6,13 @@ book:
   author: "Julio Toboso"
   chapters:
     - index.qmd
-
+    - NumPy.ipynb
+    - Pandas.ipynb
+    
 format:
   html:
     theme: cosmo
     toc: true
+
+execute:
+  execute-notebooks: auto
