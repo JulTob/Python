@@ -9,7 +9,7 @@ book:
     - NumPy.ipynb
     - part: "Data"
       chapters:
-      - Pandas.ipynb
+        - Pandas.ipynb
     
 format:
   html:
