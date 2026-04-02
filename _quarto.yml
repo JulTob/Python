@@ -7,8 +7,8 @@ book:
   chapters:
     - index.qmd
     - NumPy.ipynb
-    - section: "Data"
-      contents:
+    - part: "Data"
+      chapters:
       - Pandas.ipynb
     
 format:
