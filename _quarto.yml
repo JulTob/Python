@@ -17,4 +17,4 @@ format:
     toc: true
 
 execute:
-  execute-notebooks: freeze
+  execute-notebooks: auto
