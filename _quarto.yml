@@ -13,7 +13,7 @@ book:
     
 format:
   html:
-    theme: cosmo
+    theme: sketchy
     toc: true
 
 execute:
