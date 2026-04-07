@@ -11,6 +11,10 @@ book:
     - part: "Data"
       chapters:
         - Pandas.ipynb
+    - part: "Visual Elements"
+      chapters:
+        - SVG/SVGGuide.ipynb
+     
     
 format:
   html:
