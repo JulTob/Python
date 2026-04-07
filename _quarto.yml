@@ -14,7 +14,7 @@ book:
     
 format:
   html:
-    theme: sketchy
+    theme: simplex
     toc: true
 
 execute:
