@@ -5,7 +5,6 @@ book:
   title: "Life of Python"
   author: "Julio Toboso"
   chapters:
-    - index.qmd
     - README.qmd
     - NumPy.ipynb
     - part: "Data"
