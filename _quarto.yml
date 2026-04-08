@@ -6,7 +6,9 @@ book:
   author: "Julio Toboso"
   chapters:
     - index.qmd
-    - wiki/1/What_is_Python.qmd
+    part: "Start Here!"
+      - wiki/1/What_is_Python.qmd
+      - wiki/1/Opening_python.qmd
     - NumPy.ipynb
     - part: "Data"
       chapters:
