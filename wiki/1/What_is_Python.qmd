@@ -1,0 +1,45 @@
+
+# What is Python?
+
+🦶 Python is a popular, general-purpose programming language, originally named after the Monty Python comedy group.
+
+📜 It was created by `Guido van Rossum` and first released in 1991.
+
+🧠 Python’s core philosophy is readability: it tries to make code feel like a clear description of an idea, instead of a puzzle made of symbols.
+
+🦜 Python is used for text, numbers, images, scientific computing, data analysis, automation, web development, databases, and files—if something can be done on a computer, there’s probably a Python library for it.
+
+🗒️ Python programs are stored as plain text scripts (usually .py files), and they are typically interpreted, while often being compiled into bytecode internally to run.
+
+🧩 Python supports multiple programming styles, including Object-Oriented Programming and Functional Programming, and it lets you mix them when it makes the code clearer.
+
+🎭 Python became especially popular among beginners and non-IT fields because it lowers friction: the language is expressive, beginner-friendly, and scales well into professional software.
+
+🤝 One of Python’s biggest strengths is its community: it has a strong culture of openness, documentation, and helping others learn.
+
+ℹ️ To get some help
+
+```py
+help(functionName)
+```
+
+Example:
+```py
+help(print)
+```
+```
+Help on built-in function print in module builtins:
+
+print(*args, sep=' ', end='\n', file=None, flush=False)
+    Prints the values to a stream, or to sys.stdout by default.
+
+    sep
+      string inserted between values, default a space.
+    end
+      string appended after the last value, default a newline.
+    file
+      a file-like object (stream); defaults to the current sys.stdout.
+    flush
+      whether to forcibly flush the stream.
+```
+
