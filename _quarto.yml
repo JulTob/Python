@@ -7,8 +7,9 @@ book:
   chapters:
     - index.qmd
     part: "Start Here!"
-      - wiki/1/What_is_Python.qmd
-      - wiki/1/Opening_python.qmd
+      chapters:
+        - wiki/1/What_is_Python.qmd
+        - wiki/1/Opening_python.qmd
     - NumPy.ipynb
     - part: "Data"
       chapters:
