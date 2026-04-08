@@ -6,7 +6,7 @@ book:
   author: "Julio Toboso"
   chapters:
     - index.qmd
-    part: "Start Here!"
+    - part: "Start Here!"
       chapters:
         - wiki/1/What_is_Python.qmd
         - wiki/1/Opening_python.qmd
