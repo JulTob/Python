@@ -6,6 +6,7 @@ book:
   author: "Julio Toboso"
   chapters:
     - index.qmd
+    - wiki/1/What_is_Python.qmd
     - NumPy.ipynb
     - part: "Data"
       chapters:
